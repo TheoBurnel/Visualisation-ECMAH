@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Découverte de Londres</title>
+    <!-- Lien vers le CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .card {
+            background-color: #e0e0e0;
+            border: none;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <h1>Londres</h1>
+    </header>
+
+    <!-- Section Introduction -->
+    <div class="container mt-5">
+        <section>
+            <h2 class="mb-4">Introduction</h2>
+            <p>Londres est la capitale et plus grande ville d'Angleterre et du Royaume-Uni. La ville est située près de
+                l'estuaire de la Tamise dans le sud-est de l'Angleterre. Londinium est fondée par les Romains il y a
+                presque 2 000 ans. La Cité de Londres, le noyau historique de Londres avec une superficie de seulement
+                1,12 mile carré (2,9 km2) conserve des frontières qui suivent de près ses limites médiévales. Londres
+                est gouvernée par le maire de Londres et l'Assemblée de Londres.</p>
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mb-4">Londres, plus grande ville d'Angleterre</h2>
+                    <p>Le Grand Londres, composé de Inner London et Outer London, compte 8 615 000 habitants en 2014.
+                        L'aire urbaine de Londres compte près de 10 millions d'habitants tandis que l'aire
+                        métropolitaine, sa zone d'influence directe, compte 15 millions d'habitants. D'après Eurostat,
+                        Londres est la première ville la plus peuplée et la deuxième aire urbaine la plus importante
+                        d'Europe de l'Ouest après Paris75. La ville se classe également au quinzième rang des villes les
+                        plus peuplées du monde et au quinzième rang des aires urbaines les plus peuplées.</p>
+                    <p>La région du Grand Londres occupe une superficie de 1 572 km2. La densité de population y est de
+                        5 285 habitants par km2, soit une densité plus de 10 fois supérieure à celle de l'Écosse, de
+                        l'Irlande du Nord, du pays de Galles ou de n'importe quelle autre région anglaise. Cette densité
+                        cache cependant des disparités au sein de 32 districts. En 2005, le borough royal de Kensington
+                        et Chelsea (Inner London) comptait 16 178 hab./km2 contre 2 011 pour Bromley (Outer London).</p>
+                    <p>Londres connait une importante gentrification depuis plusieurs décennies. Toute la petite
+                        ceinture autour du centre de la capitale britannique a été complètement transformée. Entre 2011
+                        et 2021 le pourcentage de la population qui appartient aux catégories professionnelles les plus
+                        rémunérées à augmenté dans la plupart des quartiers selon une étude de l'University College de
+                        Londres. À Hackney, leur nombre est passé de 56,5 % à 64,2 % en une décennie. D’autres quartiers
+                        de l’est de Londres (Waltham Forest, Newham, Havering) demeurent plus pauvres mais ont connu une
+                        progression encore plus rapide ont une hausse de presque 10 points sur la même période. Dans la
+                        banlieue est (East End), autrefois très populaire, le prix moyen d'une maison est passé de 80
+                        000 livres en 1995 à 1,1 million en 2023, soit 1 275 % de hausse. Alors qu'en valeur réelle les
+                        salaires britanniques n’ont pas progressé depuis la crise financière de 2008, les familles
+                        modestes ou de la classe moyenne sont de nos jours progressivement poussées hors de Londres.</p>
+                    <p>La structure de la population de Londres est légèrement différente de celle de l'Angleterre ou du
+                        Royaume-Uni. L'attractivité de Londres a entraîné une immigration vers la capitale de personnes
+                        en âge de travailler depuis le reste du pays ou l'étranger. La proportion de personnes entre 20
+                        et 44 ans représente 42,8 % contre 35,1 à l'échelle nationale. En contrepartie, la proportion de
+                        personnes âgées de 60 ans et plus (14,4 %) est inférieure à la moyenne nationale (18,4 %).</p>
+                </div>
+                <div class="col-md-6">
+                    <!-- Ici l'iFrame sur les villes -->
+                    <img title="Classement par population des villes du Royaume-Uni"
+                        alt="Carte des villes du Royaume-Uni" src="ressources/villes.png"
+                        style="width: 100%; height: auto; border: none;">
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+            <h2 class="mb-4">Londres, une ville de quartiers</h2>
+            <p>La dénomination courante Londres peut désigner plusieurs ensembles géographiques ou administratifs
+                différents, pouvant parfois prêter à confusion. Jusqu'en 1889, la définition de « Londres » n'était
+                réservée qu'au mile carré de la Cité de Londres, dont la ville était originaire à l'époque romaine. À la
+                suite de son énorme expansion, qui avait amené le tissu urbain à absorber toute la Cité de Westminster
+                et d'autres banlieues, le plus vaste comté de Londres a été créé en 1889, couvrant 303 km2 et dont
+                l'existence a duré de 1889 à 1965 : à cette période le terme Londres était identifié à cette zone, qui
+                s'appelle aujourd'hui Inner London (Londres intérieure). En 1965, le comté de Londres a été supprimé au
+                profit du Greater London (Grand Londres), beaucoup plus vaste, incorporant des quartiers extérieurs,
+                appelés aujourd'hui Outer London (Londres extérieure): l'ensemble correspond à l'immense ville actuelle
+                qui couvre une superficie de 1 577 km2 et compte 8 631 000 habitants (2017).</p>
+            <p>L'emploi le plus courant fait référence au Grand Londres, une des neuf subdivisions régionales de
+                l'Angleterre, formé du territoire sous l'autorité du Greater London Authority et du maire de Londres.
+                C'est cet ensemble d'environ 1 600 km2 pour 9 millions d'habitants qui est couramment désigné lorsque
+                l'on parle de la capitale britannique. Le Grand Londres est divisé en deux zones, Inner London et Outer
+                London. Les deux zones sont considérées comme des régions NUTS-2. Cependant, le Grand Londres n'est pas
+                officiellement une cité, dont le statut, strictement défini au Royaume-Uni, est attribué à une ville par
+                le monarque britannique sur des critères précis. Avant sa création en 1965, le territoire du Grand
+                Londres faisait partie des comtés du Kent, Middlesex, Surrey, Essex et du Hertfordshire.</p>
+            <p>La cité de Londres (City of London, abrégé en City, ou bien Square Mile en référence à sa superficie de 1
+                mile carré), située au cœur du Grand Londres, correspond à la définition historique de Londres. C'est là
+                que la ville moderne est née et c'est aujourd'hui le plus ancien quartier de la capitale. C'est
+                également une circonscription à part entière avec un statut spécial. La cité de Londres et le reste du
+                Grand Londres37 forment deux régions dites de « lieutenance » (Lieutenancy areas) différentes.</p>
+            <p>La vaste agglomération londonienne peut être décrite par la région urbaine de Londres, qui correspond à
+                la zone occupée par les banlieues, et qui occupe un territoire à peu près similaire à la région du Grand
+                Londres mais avec une population légèrement supérieure. Au-delà de la région urbaine se trouve l'aire
+                urbaine de Londres (London commuter belt ou London Metropolitain Area) qui regroupe les territoires
+                habités par des personnes se déplaçant quotidiennement (commuters) pour aller travailler à Londres. La
+                région urbaine de Londres s'est considérablement agrandie durant l'époque victorienne puis de nouveau
+                pendant l'entre-deux-guerres. Son expansion s'est arrêtée dans les années 1940 à cause de la Seconde
+                Guerre mondiale et de la politique dite de la ceinture verte et sa superficie n'a pas beaucoup évolué
+                depuis. Les limites du district de la Metropolitan Police et de la zone desservie par les transports
+                londoniens ont évolué au fil du temps mais correspondent aujourd'hui approximativement à celle du Grand
+                Londres.</p>
+            <div class="col-md-6">
+                <!-- Ici l'iFrame sur les quartiers -->
+                <img title="Quartiers de Londres" alt="Carte de localisation des quartiers de Londres"
+                    src="ressources/quartier.png" style="width: 100%; height: auto; border: none;">
+            </div>
+
+        </section>
+
+        <section>
+            <h2 class="mb-4">La météo à Londres</h2>
+            <p>Le climat de Londres symbolise parfaitement le climat de type océanique. Les précipitations sont
+                régulières toute l'année souvent sous forme de bruine. Londres est une des capitales européennes les
+                plus sèches. Les étés sont tempérés et les hivers sont froids mais rarement glaciaux. Les chutes de
+                neige abondantes sont presque inconnues. La vaste agglomération londonienne crée un microclimat,
+                maintenant une température plus élevée que les zones environnantes.</p>
+            <p>Les étés sont tempérés, les jours de fortes chaleurs sont rares et les hivers sont froids mais rarement
+                glaciaux. Le mois le plus chaud est juillet avec une température moyenne à Kew Gardens de 18.0 °C
+                n'excédant que rarement les 33 °C, quoique des niveaux plus élevés soient devenus plus fréquents
+                récemment, les températures estivales en journée varient généralement entre 20 et 25 °C. La plus haute
+                température fut de 38,1 °C, mesurée dans les jardins botaniques royaux de Kew, le 10 août 2003, pendant
+                la canicule de 2003. Le mois le plus froid est janvier avec des températures moyennes de 2,4 °C à 7,9
+                °C. La température la plus froide fut de −16,1 °C, le 1er janvier 1962 à Northolt.</p>
+            <p>Les chutes de neige abondantes sont presque inconnues. Au cours des hivers les plus récents, la neige a
+                rarement excédé un pouce d'épaisseur (soit moins de 3 cm). Ceci est notamment dû au fait que la vaste
+                agglomération londonienne crée un microclimat, avec une chaleur enfermée par les immeubles de la ville.
+                La nuit, la température y est parfois de 5 à 9 °C supérieure aux zones environnantes. Le célèbre smog
+                londonien, mélange de brouillard et de fumée, est devenu rarissime dans les rues de la capitale
+                anglaise. En 1952, l'épisode de grand smog avait provoqué la mort de 4 000 à 12 000 personnes.</p>
+            <div class="col-md-6">
+                <!-- Ici l'iFrame sur la météo -->
+                <img title="Température moyenne à Londres" alt="Graphique de la température moyenne à Londres"
+                    src="ressources/temperature.png" style="width: 100%; height: auto; border: none;">
+            </div>
+        </section>
+
+        <section>
+            <h2 class="mb-4">Le tourisme à Londres</h2>
+            <p>Londres fait partie des principales destinations touristiques au monde. Ce secteur génère entre 280 000
+                et 350 000 emplois selon les sources. En 2008, les revenus du tourisme représentaient 10,5 milliards £.
+                En 2014, Londres a reçu 17,4 millions de touristes étrangers, pour un total d'environ 28 millions.</p>
+            <p>Londres bénéficie de son statut de capitale anglophone en Europe et attire ainsi chaque année de très
+                nombreux étudiants du continent venus apprendre la langue anglaise. Une importante économie du tourisme
+                estudiantin s'est développée autour de cette manne, certains n'hésitant pas à en profiter par des
+                pratiques à la limite de la légalité.</p>
+            <p>Les principaux sites touristiques londoniens sont concentrés dans le West End, qui comprend les grands
+                magasins d’Oxford Street, les théâtres, et les quartiers tels que Soho, Covent Garden, Mayfair,
+                Piccadilly Circus et la place de Leicester Square. Les monuments les plus célèbres de Londres sont
+                Westminter Abbey, Big Ben, le British Museum, la Tate Gallery, le Tate Modern, Madame Tussauds, les
+                palais de Westminster et de Buckingham, l’Imperial War Museum, le Science Museum, la National Gallery,
+                la National Portrait Gallery, le Tower Bridge, la tour de Londres, London Eye, la cathédrale Saint-Paul
+                et Arsenal Football Club Museum.</p>
+            <p>Londres est confrontée comme d'autres pays aux problèmes faisant émerger l'aspiration à un tourisme
+                durable. Les principaux sites (British Museum, palais de Buckingham et Tower Bridge, sont souvent
+                bondés, ce qui peut créer des problèmes de congestion et d'attente pour les visiteurs126. Le nombre de
+                chambres d'hôtel à Londres en 2015 s'élevait à 138 769, le plus élevé en Europe. Mais au delà du rêve
+                vendu par ces milliers d’hôtels qui accueillent chaque année des millions de visiteurs à Londres,
+                grooms, réceptionnistes, femmes de chambres et cuisiniers ont qualifié leur capitale de “l’une des
+                villes les moins éthiques du monde”, selon une enquête de TV5 Monde de septembre 2017.</p>
+            <div class="iframe-container">
+                <!-- Ici l'iFrame du centre-ville-->
+                <img title="Centre-ville de Londres" alt="Carte du centre-ville de Londres"
+                    src="ressources/centre-ville.png" style="width: 100%; height: auto; border: none;">
+        </section>
+
+        <section>
+            <h2 class="mb-4">Les musées de Londres</h2>
+            <p>Londres possède un panel de musées parmi les plus importants au monde. On en compte 240 (contre 173 à
+                Paris), musées, galeries et autres institutions, dont beaucoup sont gratuits et sont des attractions
+                touristiques majeures et jouent un rôle de recherche. Le premier d'entre eux à avoir été créé était le
+                British Museum de Bloomsbury, en 1753. Contenant à l'origine des antiquités, des spécimens d'histoire
+                naturelle et la bibliothèque nationale, le musée est l'un des musées les plus grands et les plus
+                célèbres au monde, et compte maintenant sept millions d'artefacts provenant du monde entier. En 1824, la
+                National Gallery a été fondée pour abriter la collection nationale britannique de peintures
+                occidentales. Dans la seconde moitié du xixe siècle, la localité de South Kensington a été développée
+                comme " Albertopolis ", un quartier culturel et scientifique. Trois grands musées nationaux s'y
+                trouvent: le Victoria and Albert Museum, plus grand musée d'arts appliqués du monde, le musée d'histoire
+                naturelle et ses 70 millions de specimen, et le Science Museum. La National Portrait Gallery a été
+                fondée en 1856 pour abriter des représentations de personnages de l'histoire britannique ; ses
+                collections comprennent désormais la plus vaste collection de portraits au monde. La galerie nationale
+                d'art britannique est à la Tate Britain, créée à l'origine comme une annexe de la National Gallery en
+                1897. La Tate Gallery, comme on l'appelait auparavant, est également devenue un centre majeur de l'art
+                moderne ; en 2000, cette collection a déménagé à la Tate Modern, une nouvelle galerie installée dans
+                l'ancienne centrale électrique de Bankside, construit par les deux architectes bâlois Pierre Herzog et
+                Jacques de Meuron. On peut également citer le National Maritime Museum de Greenwich, le plus grand de
+                son genre au monde, la Wallace Collection, une des plus belles collections privées d'art au monde, ou le
+                célèbre Madame Tussauds. Le Musée impérial de la guerre est l'un des musées de guerre les plus
+                importants au monde.</p>
+            <p>La British Library est l'une des plus grandes bibliothèques du monde et la bibliothèque nationale du
+                Royaume-Uni. Il existe de nombreuses autres bibliothèques de recherche, dont la Wellcome Library et le
+                Dana Center, ainsi que des bibliothèques universitaires, notamment la British Library of Political and
+                Economic Science à LSE, la Central Library à Imperial, la Maughan Library à King's et la Bibliothèque de
+                Senate House à l'Université de Londres.</p>
+            <div class="iframe-container">
+                <!-- Ici l'iFrame des musées -->
+                <img title="Centre-ville de Londres" alt="Carte du centre-ville de Londres" src="ressources/musee.png"
+                    style="width: 100%; height: auto; border: none;">
+        </section>
+        </section>
+
+        <section>
+            <h2 class="mb-4">Commonwealth</h2>
+            <p>Le Commonwealth of Nations, communément appelé Commonwealth (litt. bien commun, richesse commune,
+                prospérité partagée), est une organisation intergouvernementale composée de 56 États membres qui sont
+                presque tous d'anciens territoires de l'Empire britannique.</p>
+            <p>Le Commonwealth a émergé au milieu du xxe siècle pendant le processus de décolonisation. Il est
+                formellement constitué par la Déclaration de Londres de 1949 qui fait des États membres des partenaires
+                « libres et égaux ». Le symbole de cette libre association est le roi Charles III qui est chef du
+                Commonwealth. Le roi est également le chef d'État monarchique de 15 des royaumes du Commonwealth. Les
+                autres États membres sont 36 républiques et 5 monarchies dont le monarque est différent.</p>
+            <p>Les États membres n'ont aucune obligation les uns envers les autres. Ils sont réunis par la langue,
+                l'histoire, la culture et des valeurs décrites dans la Charte du Commonwealth telles que la démocratie,
+                les droits de l'homme et l'État de droit.</p>
+            <div class="iframe-container">
+                <!-- Ici l'iFrame du Commonwealth -->
+                <img title="Centre-ville de Londres" alt="Carte du centre-ville de Londres"
+                    src="ressources/commonwealth.png" style="width: 100%; height: auto; border: none;">
+        </section>
+    </div>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Découverte de Londres | Tous droits réservés</p>
+    </footer>
+
+    <!-- Lien vers le JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
