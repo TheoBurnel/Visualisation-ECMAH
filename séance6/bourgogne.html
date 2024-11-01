@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bourgogne-Franche-Comté - Découverte et Patrimoine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+
+        header {
+            background-color: #9C1F00;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #9C1F00;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .grid img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #9C1F00;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenue en Bourgogne-Franche-Comté</h1>
+        <p>Découvrez le charme et la richesse de cette région historique française.</p>
+    </header>
+
+    <div class="container">
+        <h2>Les premières représentations</h2>
+        <h3>La Bourgogne-Franche-Comté en France</h3>
+        <p>On commence simplement ! Faites apparaître les départements de la région sur une carte Khartis, avec une
+            petite légende. Utilisez le fichier 1-kartis.csv. Temps estimé : 15min.</p>
+        <div class="grid">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Bourgogne-Franche-Comté_region_locator_map.svg"
+                alt="Carte wikipédia">
+            <!-- Pour déposer votre carte : enregistrer en .png et déposer votre fichier dans le même dossier que cette page. Ensuite, remplacer la source par le nom de votre fichier.-->
+            <img src="nom de votre fichier" alt="Votre carte">
+        </div>
+
+        <h3>La population des départements</h3>
+        <p>Toujours avec Karthis, représentez les départements, la population et la densité. Transformez avant l'image
+            2-khartis.png en un csv avant. Temps estimé : 15 min.</p>
+        <div class="grid">
+            <img src="https://www.vie-publique.fr/files/2019-09/France_Population.jpg" alt="Carte Vie publique">
+            <img src="nom de votre fichier" alt="Votre carte">
+        </div>
+
+        <h2>L'évoluation de la population dans le temps</h2>
+        <p>Représenter l'évolution de la population maintenant avec deux représentations sur Datawrapper : un tableau et
+            un graphique. Sur le premier, trouvez une personnalisation (pensez à la dernière colonne...). Temps estimé :
+            20 min.</p>
+        <div class="grid">
+            <!-- Remplacez ces lignes par des iFrames-->
+            <img src="nom de votre fichier" alt="Ici votre tableau">
+            <img src="nom de votre fichier" alt="Ici votre graphique">
+        </div>
+
+        <h2>Récupération de données et visualisation</h2>
+        <h3>Relief de la région</h3>
+        <p>Nous allons représenter le relief de la région de façon un peu détournée... Pour simplifier, nous
+            allons récupérer des communes (avec leurs coordonnées) et leur altitude. Pour ce faire, il faut
+            faire un petit tour sur Wikidata. Ensuite, Kepler permettra de faire cette visualisation avec un peu
+            d'idées. Temps estimé : 20 min.</p>
+        <div class="grid">
+            <!-- Faites simplement une capture d'écran de votre carte sur Kepler et enregistrez l'image dans le dossier. Ensuite, écrivez le chemin.-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/France_relief_location_map.jpg"
+                alt="Ici votre tableau">
+            <img src="nom de votre fichier" alt="Ici votre image">
+        </div>
+
+        <h2>Un parcours historique</h2>
+        <h3>Découvrir la Bourgogne-Franche-Comté dans le temps</h3>
+        <p>Faites une carte historique de la Bourgogne-Franche-Comté. Temps estimé : 40 min. </p>
+        <div class="grid">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Etat_bourguignon_Philippe_le_Bon_Fr.png" alt="à remplacer par un iFrame">
+        </div>                 
+    </div>
+
+    <footer>
+        &copy; 2024 Découverte de la Bourgogne
+    </footer>
+</body>
+
+</html>
