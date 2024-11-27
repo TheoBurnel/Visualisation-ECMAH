@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Espagne</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+
+        header {
+            background-color: #9C1F00;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #9C1F00;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .grid img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #9C1F00;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Voici une page HTML sur l'Espagne</h1>
+        <p>Un pays de l'Union Européenne et fait de régions bien différentes.</p>
+    </header>
+
+    <div class="container">
+        <h2>Les premières représentations</h2>
+        <h3>L'Espagne en Europe</h3>
+        <p>On commence simplement ! Faites apparaître les pays de l'Union Européenne sur une carte Khartis, avec une
+            petite légende. Utilisez le fichier 1-europe.csv. Temps estimé : 10min.</p>
+        <div class="grid">
+            <img src="https://www.vie-publique.fr/files/2024-04/INFS_2404_PWDN_03_Espace%20Schengen.jpg"
+                alt="Carte wikipédia">
+            <!-- Pour déposer votre carte : enregistrer en .png et déposer votre fichier dans le même dossier que cette page. Ensuite, remplacer la source par le nom de votre fichier.-->
+            <img src="nom de votre fichier" alt="Votre carte">
+        </div>
+
+        <h3>La population et la superficie des pays</h3>
+        <p>Toujours avec Karthis, représentez les pays, la population et la superficie (2-europe.csv). Temps estimé : 10 min.</p>
+        <div class="grid">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Population_density_by_NUTS_3_region_%282017%29.svg" alt="Carte Vie publique">
+            <img src="nom de votre fichier" alt="Votre carte">
+        </div>
+
+        <h2>L'évoluation de l'Espagne</h2>
+        <p>Sur Datawrapper, trouvez une façon de rendre le tableau de données (evolution.csv) plus attractif. Temps estimé : 15 min.</p>
+        <div class="grid">
+            <!-- Remplacez cette ligne par des iFrame-->
+            <img src="nom de votre fichier" alt="Ici votre représentation">
+        </div>
+
+        <h2>Récupération de données et visualisation</h2>
+        <h3>Population de l'Espagne</h3>
+        <p>Récupérez les communes espagnoles et leur population sur Wikidata. Ensuite, proposez une visualisaiton sur Kepler (une visualisation moderne, pas simplement des points).
+            (Remarque : pour tout obtenir, la requête peut être un peu complexe (par exemple pour la Catalogne). Arrêtez vous si vous avez 6000 communes)
+            Bonus : essayez de ne faire figurer que les communes au sud de Madrid. Temps estimé : 20 min.</p>
+        <div class="grid">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Espagne_carte.png" alt="wiki">
+            <!-- Remplacez cette ligne par l'iFrame-->
+            <img src="nom de votre fichier" alt="Ici votre image">
+        </div>
+
+        <h3>Répartition de la population</h3>
+        <p>Vous avez deux csv : l'un avec les coordonnées des provinces (provinces-coordonnees), l'autre avec la population et la superfice (provinces-donnees).
+            Faites figurer la densité de population des provinces sur Kepler. Temps estimé : 20 min.</p>
+        <div class="grid">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Densités_de_population_en_Espagne_%282005%29.png" alt="wiki">
+            <!-- Remplacez cette ligne par l'iFrame-->
+            <img src="nom de votre fichier" alt="Ici votre image">
+        </div>
+
+        <h2>Un parcours historique</h2>
+        <h3>La guerre civile</h3>
+        <p>À partir de cette page wikipédia : https://fr.wikipedia.org/wiki/Guerre_d%27Espagne, faites une visualisaiton autour de la guerre civile espagnole.
+            Vous pouvez choisir ce que vous souhaitez sur https://knightlab.northwestern.edu. Traitez simplement 4 informations, pour montrer votre maîtrise de l'un des outils.
+            Temps estimé : 20 min. </p>
+        <div class="grid">
+            <!-- Remplacez cette ligne par l'iFrame-->
+            <img src="nom de votre fichier" alt="Ici votre visualisation">
+        </div>   
+        
+        <h3>La ville de Barcelone</h3>
+        <p>Les plans du centre-ville de Barcelone sont datés sur internet. Proposez le vôtre à l'aide de Datawrapper.
+            Représentez simplement 4 lieux différents.
+            Temps estimé : 15 min. </p>
+        <div class="grid">
+            <img src="https://cdn.generationvoyage.fr/2018/04/plan-carte-detaillee-barcelone.jpg" alt="wiki">
+            <!-- Remplacez cette ligne par l'iFrame-->
+            <img src="nom de votre fichier" alt="Ici votre image">
+        </div>
+    </div>
+
+
+    <footer>
+        &copy; 2024 Découverte de l'Espagne
+    </footer>
+</body>
+
+</html>
